@@ -1,0 +1,120 @@
+{
+  "uid" : "2eafdb4f5609ab48",
+  "name" : "Создание заказа без авторизации",
+  "fullName" : "ru.yandex.practicum.tests.OrderCreateTest.createOrderWithoutAuth",
+  "historyId" : "a68b52da1845f0d366ef2a6d227c5fc0",
+  "time" : {
+    "start" : 1790279742318,
+    "stop" : 1790279743378,
+    "duration" : 1060
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создать пользователя: test_583c01de@yandex.ru",
+      "time" : {
+        "start" : 1790279742318,
+        "stop" : 1790279742500,
+        "duration" : 182
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "ru.yandex.practicum.models.User@627cb3ed"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Создать заказ без авторизации",
+      "time" : {
+        "start" : 1790279742512,
+        "stop" : 1790279742610,
+        "duration" : 98
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "order",
+        "value" : "ru.yandex.practicum.models.Order@74120029"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Удалить пользователя по токену",
+      "time" : {
+        "start" : 1790279742620,
+        "stop" : 1790279743378,
+        "duration" : 758
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "accessToken",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYjU4MDU3OTg0MjcwMDAxYmVkOTA2NSIsImlhdCI6MTc5MDI3OTc2NywiZXhwIjoxNzkwMjgwOTY3fQ.MnmLS8s3VYuMIdJ8YabDov3-kujWQBvH46FbACBTwgk"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.yandex.practicum.tests"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.yandex.practicum.tests.OrderCreateTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createOrderWithoutAuth"
+  }, {
+    "name" : "suite",
+    "value" : "ru.yandex.practicum.tests.OrderCreateTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-N8LGFHC"
+  }, {
+    "name" : "thread",
+    "value" : "8148@DESKTOP-N8LGFHC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2eafdb4f5609ab48.json",
+  "parameterValues" : [ ]
+}

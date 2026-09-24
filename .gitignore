@@ -3,6 +3,6 @@ target/
 *.iml
 *.log
 allure-results/
-allure-report/
+#allure-report/
 .allure/
 .DS_Store
