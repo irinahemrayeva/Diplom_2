@@ -1,80 +1,83 @@
 {
-  "uid" : "2eafdb4f5609ab48",
+  "uid" : "18f4a3161480cefc",
   "name" : "Создание заказа без авторизации",
-  "fullName" : "ru.yandex.practicum.tests.OrderCreateTest.createOrderWithoutAuth",
-  "historyId" : "a68b52da1845f0d366ef2a6d227c5fc0",
+  "fullName" : "ru.yandex.practicum.tests.OrderCreateTest.createOrderWithoutAuthTest",
+  "historyId" : "934e82667f18fcf78b09e1c865ce368b",
   "time" : {
-    "start" : 1790279742318,
-    "stop" : 1790279743378,
-    "duration" : 1060
+    "start" : 1790435626004,
+    "stop" : 1790435627062,
+    "duration" : 1058
   },
+  "description" : "Проверяем создание заказа без токена",
+  "descriptionHtml" : "<p>Проверяем создание заказа без токена</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
   "testStage" : {
+    "description" : "Проверяем создание заказа без токена",
     "status" : "passed",
     "steps" : [ {
-      "name" : "Создать пользователя: test_583c01de@yandex.ru",
+      "name" : "Создать пользователя: test_962e9ebc@yandex.ru",
       "time" : {
-        "start" : 1790279742318,
-        "stop" : 1790279742500,
-        "duration" : 182
+        "start" : 1790435626005,
+        "stop" : 1790435626182,
+        "duration" : 177
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "user",
-        "value" : "ru.yandex.practicum.models.User@627cb3ed"
+        "value" : "User(email=test_962e9ebc@yandex.ru, password=password962e9ebc, name=User_962e9ebc)"
       } ],
-      "stepsCount" : 0,
       "hasContent" : true,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Создать заказ без авторизации",
       "time" : {
-        "start" : 1790279742512,
-        "stop" : 1790279742610,
-        "duration" : 98
+        "start" : 1790435626194,
+        "stop" : 1790435626291,
+        "duration" : 97
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "order",
-        "value" : "ru.yandex.practicum.models.Order@74120029"
+        "value" : "Order(ingredients=[61c0c5a71d1f82001bdaaa6d, 61c0c5a71d1f82001bdaaa70], name=null, success=false, order=null)"
       } ],
-      "stepsCount" : 0,
       "hasContent" : true,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Удалить пользователя по токену",
       "time" : {
-        "start" : 1790279742620,
-        "stop" : 1790279743378,
-        "duration" : 758
+        "start" : 1790435626302,
+        "stop" : 1790435627062,
+        "duration" : 760
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "accessToken",
-        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYjU4MDU3OTg0MjcwMDAxYmVkOTA2NSIsImlhdCI6MTc5MDI3OTc2NywiZXhwIjoxNzkwMjgwOTY3fQ.MnmLS8s3VYuMIdJ8YabDov3-kujWQBvH46FbACBTwgk"
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYjdlMTQyOTg0MjcwMDAxYmVkOWU2ZSIsImlhdCI6MTc5MDQzNTY1MCwiZXhwIjoxNzkwNDM2ODUwfQ.Lxkw5gBwGwufYFnrkV8C2AycmfNWtiqNJQSnApEToeY"
       } ],
-      "stepsCount" : 0,
       "hasContent" : true,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 3,
     "hasContent" : true,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -85,7 +88,7 @@
     "value" : "ru.yandex.practicum.tests.OrderCreateTest"
   }, {
     "name" : "testMethod",
-    "value" : "createOrderWithoutAuth"
+    "value" : "createOrderWithoutAuthTest"
   }, {
     "name" : "suite",
     "value" : "ru.yandex.practicum.tests.OrderCreateTest"
@@ -94,7 +97,7 @@
     "value" : "DESKTOP-N8LGFHC"
   }, {
     "name" : "thread",
-    "value" : "8148@DESKTOP-N8LGFHC.main(1)"
+    "value" : "22028@DESKTOP-N8LGFHC.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit4"
@@ -115,6 +118,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "2eafdb4f5609ab48.json",
+  "source" : "18f4a3161480cefc.json",
   "parameterValues" : [ ]
 }

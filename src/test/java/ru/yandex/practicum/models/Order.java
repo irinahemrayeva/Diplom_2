@@ -1,7 +1,14 @@
 package ru.yandex.practicum.models;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 import java.util.List;
 
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class Order {
 
     private List<String> ingredients;
@@ -9,54 +16,14 @@ public class Order {
     private boolean success;
     private OrderInfo order;
 
-    public Order(){
-    }
-
     public Order(List<String> ingredients) {
         this.ingredients = ingredients;
     }
 
-    public List<String> getIngredients() {
-        return ingredients;
-    }
-
-    public void setIngredients(List<String> ingredients) {
-        this.ingredients = ingredients;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public boolean isSuccess() {
-        return success;
-    }
-
-    public void setSuccess(boolean success) {
-        this.success = success;
-    }
-
-    public OrderInfo getOrder() {
-        return order;
-    }
-
-    public void setOrder(OrderInfo order) {
-        this.order = order;
-    }
-
+    @Data
+    @NoArgsConstructor
+    @AllArgsConstructor
     public static class OrderInfo {
-         private int number;
-
-        public int getNumber() {
-            return number;
-        }
-
-        public void setNumber(int number) {
-            this.number = number;
-        }
+        private int number;
     }
 }

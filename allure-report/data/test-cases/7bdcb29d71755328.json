@@ -1,0 +1,87 @@
+{
+  "uid" : "7bdcb29d71755328",
+  "name" : "Создание пользователя без поля name",
+  "fullName" : "ru.yandex.practicum.tests.UserCreateTest.createUserWithoutNameTest",
+  "historyId" : "e3823211f8b906d3b9b83c747c7035b8",
+  "time" : {
+    "start" : 1790435629538,
+    "stop" : 1790435629645,
+    "duration" : 107
+  },
+  "description" : "Проверяем, что без name регистрация возвращает 403",
+  "descriptionHtml" : "<p>Проверяем, что без name регистрация возвращает 403</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверяем, что без name регистрация возвращает 403",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создать пользователя: test_51e0e728@yandex.ru",
+      "time" : {
+        "start" : 1790435629538,
+        "stop" : 1790435629630,
+        "duration" : 92
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=test_51e0e728@yandex.ru, password=password51e0e728, name=null)"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.yandex.practicum.tests"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.yandex.practicum.tests.UserCreateTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createUserWithoutNameTest"
+  }, {
+    "name" : "suite",
+    "value" : "ru.yandex.practicum.tests.UserCreateTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-N8LGFHC"
+  }, {
+    "name" : "thread",
+    "value" : "22028@DESKTOP-N8LGFHC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7bdcb29d71755328.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,123 @@
+{
+  "uid" : "234da088a488b55",
+  "name" : "Создание уже зарегистрированного пользователя",
+  "fullName" : "ru.yandex.practicum.tests.UserCreateTest.createDuplicateUserTest",
+  "historyId" : "d53b26c7bb5bf52d8477e67a59eee17",
+  "time" : {
+    "start" : 1790435628336,
+    "stop" : 1790435629413,
+    "duration" : 1077
+  },
+  "description" : "Проверяем, что повторная регистрация возвращает 403 и сообщение User already exists",
+  "descriptionHtml" : "<p>Проверяем, что повторная регистрация возвращает 403 и сообщение User already exists</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверяем, что повторная регистрация возвращает 403 и сообщение User already exists",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создать пользователя: test_fb805638@yandex.ru",
+      "time" : {
+        "start" : 1790435628337,
+        "stop" : 1790435628523,
+        "duration" : 186
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=test_fb805638@yandex.ru, password=passwordfb805638, name=User_fb805638)"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Создать пользователя: test_fb805638@yandex.ru",
+      "time" : {
+        "start" : 1790435628536,
+        "stop" : 1790435628634,
+        "duration" : 98
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=test_fb805638@yandex.ru, password=passwordfb805638, name=User_fb805638)"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Удалить пользователя по токену",
+      "time" : {
+        "start" : 1790435628654,
+        "stop" : 1790435629412,
+        "duration" : 758
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "accessToken",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYjdlMTQ0OTg0MjcwMDAxYmVkOWU3MiIsImlhdCI6MTc5MDQzNTY1MiwiZXhwIjoxNzkwNDM2ODUyfQ.9CNr4FbgjcyDDuavN72VrNkinbOnJuuW74b_incr6EA"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.yandex.practicum.tests"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.yandex.practicum.tests.UserCreateTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createDuplicateUserTest"
+  }, {
+    "name" : "suite",
+    "value" : "ru.yandex.practicum.tests.UserCreateTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-N8LGFHC"
+  }, {
+    "name" : "thread",
+    "value" : "22028@DESKTOP-N8LGFHC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "234da088a488b55.json",
+  "parameterValues" : [ ]
+}

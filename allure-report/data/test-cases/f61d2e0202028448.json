@@ -1,24 +1,27 @@
 {
-  "uid" : "d174251eb27d295e",
-  "name" : "Создание пользователя без обязательного поля email",
-  "fullName" : "ru.yandex.practicum.tests.UserCreateTest.createUserWithoutEmailReturns403",
-  "historyId" : "3994b838890eb6b1a612692d317f0516",
+  "uid" : "f61d2e0202028448",
+  "name" : "Создание пользователя без поля email",
+  "fullName" : "ru.yandex.practicum.tests.UserCreateTest.createUserWithoutEmailTest",
+  "historyId" : "afd449fd0bca93e96a2ff5e797107b5d",
   "time" : {
-    "start" : 1790279750371,
-    "stop" : 1790279750490,
-    "duration" : 119
+    "start" : 1790435629417,
+    "stop" : 1790435629537,
+    "duration" : 120
   },
+  "description" : "Проверяем, что без email регистрация возвращает 403",
+  "descriptionHtml" : "<p>Проверяем, что без email регистрация возвращает 403</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
   "testStage" : {
+    "description" : "Проверяем, что без email регистрация возвращает 403",
     "status" : "passed",
     "steps" : [ {
       "name" : "Создать пользователя: null",
       "time" : {
-        "start" : 1790279750371,
-        "stop" : 1790279750469,
+        "start" : 1790435629417,
+        "stop" : 1790435629515,
         "duration" : 98
       },
       "status" : "passed",
@@ -26,19 +29,19 @@
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "user",
-        "value" : "ru.yandex.practicum.models.User@7212d3df"
+        "value" : "User(email=null, password=password5f11d208, name=User_5f11d208)"
       } ],
-      "stepsCount" : 0,
       "hasContent" : true,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 1,
     "hasContent" : true,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "stepsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -49,7 +52,7 @@
     "value" : "ru.yandex.practicum.tests.UserCreateTest"
   }, {
     "name" : "testMethod",
-    "value" : "createUserWithoutEmailReturns403"
+    "value" : "createUserWithoutEmailTest"
   }, {
     "name" : "suite",
     "value" : "ru.yandex.practicum.tests.UserCreateTest"
@@ -58,7 +61,7 @@
     "value" : "DESKTOP-N8LGFHC"
   }, {
     "name" : "thread",
-    "value" : "8148@DESKTOP-N8LGFHC.main(1)"
+    "value" : "22028@DESKTOP-N8LGFHC.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit4"
@@ -79,6 +82,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "d174251eb27d295e.json",
+  "source" : "f61d2e0202028448.json",
   "parameterValues" : [ ]
 }

@@ -1,5 +1,6 @@
 package ru.yandex.practicum.tests;
 
+import io.qameta.allure.Description;
 import io.qameta.allure.junit4.DisplayName;
 import io.restassured.response.Response;
 import org.junit.After;
@@ -15,6 +16,10 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
+import static org.apache.http.HttpStatus.SC_BAD_REQUEST;
+import static org.apache.http.HttpStatus.SC_INTERNAL_SERVER_ERROR;
+import static org.apache.http.HttpStatus.SC_OK;
+import static org.apache.http.HttpStatus.SC_UNAUTHORIZED;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.notNullValue;
 
@@ -46,57 +51,62 @@ public class OrderCreateTest {
 
     @Test
     @DisplayName("Создание заказа с авторизацией")
-    public void createOrderWithAuthSuccess() {
+    @Description("Проверяем, что авторизованный пользователь может создать заказ")
+    public void createOrderWithAuthTest() {
         Order order = new Order(VALID_INGREDIENTS);
 
         orderClient.createOrderWithAuth(order, accessToken)
                 .then()
-                .statusCode(200)
+                .statusCode(SC_OK)
                 .body("success", equalTo(true));
     }
 
     @Test
     @DisplayName("Создание заказа без авторизации")
-    public void createOrderWithoutAuth() {
+    @Description("Проверяем создание заказа без токена")
+    public void createOrderWithoutAuthTest() {
         Order order = new Order(VALID_INGREDIENTS);
 
         orderClient.createOrderWithoutAuth(order)
                 .then()
-                .statusCode(200)
+                .statusCode(SC_OK)
                 .body("success", equalTo(true));
     }
 
     @Test
     @DisplayName("Создание заказа с ингредиентами")
-    public void createOrderWithIngredientsReturnsOrderNumber() {
+    @Description("Проверяем, что при создании заказа возвращается его номер")
+    public void createOrderWithIngredientsTest() {
         Order order = new Order(VALID_INGREDIENTS);
 
         orderClient.createOrderWithAuth(order, accessToken)
                 .then()
-                .statusCode(200)
+                .statusCode(SC_OK)
                 .body("success", equalTo(true))
                 .body("order.number", notNullValue());
     }
 
     @Test
     @DisplayName("Создание заказа без ингредиентов")
-    public void createOrderWithoutIngredientsReturns400() {
+    @Description("Проверяем, что без ингредиентов возвращается 400 и сообщение об ошибке")
+    public void createOrderWithoutIngredientsTest() {
         Order order = new Order(Collections.emptyList());
 
         orderClient.createOrderWithAuth(order, accessToken)
                 .then()
-                .statusCode(400)
+                .statusCode(SC_BAD_REQUEST)
                 .body("success", equalTo(false))
                 .body("message", equalTo("Ingredient ids must be provided"));
     }
 
     @Test
     @DisplayName("Создание заказа с неверным хешем ингредиентов")
-    public void createOrderWithInvalidHashReturns500() {
+    @Description("Проверяем, что неверный хеш ингредиента возвращает 500")
+    public void createOrderWithInvalidHashTest() {
         Order order = new Order(Collections.singletonList("invalid_hash_123"));
 
         orderClient.createOrderWithAuth(order, accessToken)
                 .then()
-                .statusCode(500);
+                .statusCode(SC_INTERNAL_SERVER_ERROR);
     }
 }

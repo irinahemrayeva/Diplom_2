@@ -1,0 +1,87 @@
+{
+  "uid" : "409f7d87e28cca44",
+  "name" : "Создание пользователя без поля password",
+  "fullName" : "ru.yandex.practicum.tests.UserCreateTest.createUserWithoutPasswordTest",
+  "historyId" : "f4a47312f1d3c60ae641c10340780299",
+  "time" : {
+    "start" : 1790435629647,
+    "stop" : 1790435629764,
+    "duration" : 117
+  },
+  "description" : "Проверяем, что без password регистрация возвращает 403",
+  "descriptionHtml" : "<p>Проверяем, что без password регистрация возвращает 403</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверяем, что без password регистрация возвращает 403",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создать пользователя: test_ac201a7a@yandex.ru",
+      "time" : {
+        "start" : 1790435629647,
+        "stop" : 1790435629747,
+        "duration" : 100
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=test_ac201a7a@yandex.ru, password=null, name=User_ac201a7a)"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.yandex.practicum.tests"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.yandex.practicum.tests.UserCreateTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createUserWithoutPasswordTest"
+  }, {
+    "name" : "suite",
+    "value" : "ru.yandex.practicum.tests.UserCreateTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-N8LGFHC"
+  }, {
+    "name" : "thread",
+    "value" : "22028@DESKTOP-N8LGFHC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "409f7d87e28cca44.json",
+  "parameterValues" : [ ]
+}

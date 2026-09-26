@@ -1,0 +1,105 @@
+{
+  "uid" : "88c36e3255915359",
+  "name" : "Создание уникального пользователя",
+  "fullName" : "ru.yandex.practicum.tests.UserCreateTest.createUniqueUserTest",
+  "historyId" : "3df4afde86e56e3d5353f80f392adb8a",
+  "time" : {
+    "start" : 1790435629766,
+    "stop" : 1790435630733,
+    "duration" : 967
+  },
+  "description" : "Проверяем, что уникальный пользователь создаётся и возвращается accessToken",
+  "descriptionHtml" : "<p>Проверяем, что уникальный пользователь создаётся и возвращается accessToken</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверяем, что уникальный пользователь создаётся и возвращается accessToken",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создать пользователя: test_1ed8cb16@yandex.ru",
+      "time" : {
+        "start" : 1790435629767,
+        "stop" : 1790435629945,
+        "duration" : 178
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=test_1ed8cb16@yandex.ru, password=password1ed8cb16, name=User_1ed8cb16)"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Удалить пользователя по токену",
+      "time" : {
+        "start" : 1790435629971,
+        "stop" : 1790435630733,
+        "duration" : 762
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "accessToken",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYjdlMTQ2OTg0MjcwMDAxYmVkOWU3NCIsImlhdCI6MTc5MDQzNTY1NCwiZXhwIjoxNzkwNDM2ODU0fQ.OYrZ8kL_JDhKUHeRA66iiZ_owspVJ2eY9rQhSEB3QGY"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.yandex.practicum.tests"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.yandex.practicum.tests.UserCreateTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createUniqueUserTest"
+  }, {
+    "name" : "suite",
+    "value" : "ru.yandex.practicum.tests.UserCreateTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-N8LGFHC"
+  }, {
+    "name" : "thread",
+    "value" : "22028@DESKTOP-N8LGFHC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "88c36e3255915359.json",
+  "parameterValues" : [ ]
+}
