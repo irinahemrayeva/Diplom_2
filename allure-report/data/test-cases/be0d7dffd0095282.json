@@ -1,0 +1,123 @@
+{
+  "uid" : "be0d7dffd0095282",
+  "name" : "Вход с неверным логином",
+  "fullName" : "ru.yandex.practicum.tests.UserLoginTest.loginWithWrongEmailTest",
+  "historyId" : "e9701d9ca00abeefbf376b31b6b166e6",
+  "time" : {
+    "start" : 1790435633060,
+    "stop" : 1790435634127,
+    "duration" : 1067
+  },
+  "description" : "Проверяем, что при неверном email возвращается 401",
+  "descriptionHtml" : "<p>Проверяем, что при неверном email возвращается 401</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверяем, что при неверном email возвращается 401",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создать пользователя: test_21660b1a@yandex.ru",
+      "time" : {
+        "start" : 1790435633060,
+        "stop" : 1790435633239,
+        "duration" : 179
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=test_21660b1a@yandex.ru, password=password21660b1a, name=User_21660b1a)"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Залогинить пользователя: wrong_email@yandex.ru",
+      "time" : {
+        "start" : 1790435633247,
+        "stop" : 1790435633346,
+        "duration" : 99
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=wrong_email@yandex.ru, password=password21660b1a, name=User_21660b1a)"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Удалить пользователя по токену",
+      "time" : {
+        "start" : 1790435633365,
+        "stop" : 1790435634127,
+        "duration" : 762
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "accessToken",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYjdlMTQ5OTg0MjcwMDAxYmVkOWU3YiIsImlhdCI6MTc5MDQzNTY1NywiZXhwIjoxNzkwNDM2ODU3fQ.QmrIDKbtUuB_NnNZPbse2Ccqynv2Bo1LNPqBe1L8EOM"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.yandex.practicum.tests"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.yandex.practicum.tests.UserLoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginWithWrongEmailTest"
+  }, {
+    "name" : "suite",
+    "value" : "ru.yandex.practicum.tests.UserLoginTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-N8LGFHC"
+  }, {
+    "name" : "thread",
+    "value" : "22028@DESKTOP-N8LGFHC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "be0d7dffd0095282.json",
+  "parameterValues" : [ ]
+}

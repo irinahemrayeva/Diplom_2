@@ -1,0 +1,126 @@
+{
+  "uid" : "d3916981edf3f891",
+  "name" : "Создание заказа с неверным хешем ингредиентов",
+  "fullName" : "ru.yandex.practicum.tests.OrderCreateTest.createOrderWithInvalidHashTest",
+  "historyId" : "2917acdc49dc39de0a4dfdff91072a95",
+  "time" : {
+    "start" : 1790435620077,
+    "stop" : 1790435621155,
+    "duration" : 1078
+  },
+  "description" : "Проверяем, что неверный хеш ингредиента возвращает 500",
+  "descriptionHtml" : "<p>Проверяем, что неверный хеш ингредиента возвращает 500</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверяем, что неверный хеш ингредиента возвращает 500",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создать пользователя: test_42d93c0c@yandex.ru",
+      "time" : {
+        "start" : 1790435620077,
+        "stop" : 1790435620261,
+        "duration" : 184
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=test_42d93c0c@yandex.ru, password=password42d93c0c, name=User_42d93c0c)"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Создать заказ с авторизацией",
+      "time" : {
+        "start" : 1790435620278,
+        "stop" : 1790435620370,
+        "duration" : 92
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "order",
+        "value" : "Order(ingredients=[invalid_hash_123], name=null, success=false, order=null)"
+      }, {
+        "name" : "accessToken",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYjdlMTNjOTg0MjcwMDAxYmVkOWU2OSIsImlhdCI6MTc5MDQzNTY0NCwiZXhwIjoxNzkwNDM2ODQ0fQ.luwJkiEsG3f2uOMT10Hm-ev0OimRAk1HxOmNlm3tsqw"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Удалить пользователя по токену",
+      "time" : {
+        "start" : 1790435620371,
+        "stop" : 1790435621155,
+        "duration" : 784
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "accessToken",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYjdlMTNjOTg0MjcwMDAxYmVkOWU2OSIsImlhdCI6MTc5MDQzNTY0NCwiZXhwIjoxNzkwNDM2ODQ0fQ.luwJkiEsG3f2uOMT10Hm-ev0OimRAk1HxOmNlm3tsqw"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.yandex.practicum.tests"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.yandex.practicum.tests.OrderCreateTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createOrderWithInvalidHashTest"
+  }, {
+    "name" : "suite",
+    "value" : "ru.yandex.practicum.tests.OrderCreateTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-N8LGFHC"
+  }, {
+    "name" : "thread",
+    "value" : "22028@DESKTOP-N8LGFHC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d3916981edf3f891.json",
+  "parameterValues" : [ ]
+}

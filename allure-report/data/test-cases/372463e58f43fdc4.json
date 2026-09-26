@@ -1,0 +1,126 @@
+{
+  "uid" : "372463e58f43fdc4",
+  "name" : "Создание заказа без ингредиентов",
+  "fullName" : "ru.yandex.practicum.tests.OrderCreateTest.createOrderWithoutIngredientsTest",
+  "historyId" : "ed085133c1f36296b791f70f91e5e7c5",
+  "time" : {
+    "start" : 1790435627067,
+    "stop" : 1790435628329,
+    "duration" : 1262
+  },
+  "description" : "Проверяем, что без ингредиентов возвращается 400 и сообщение об ошибке",
+  "descriptionHtml" : "<p>Проверяем, что без ингредиентов возвращается 400 и сообщение об ошибке</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверяем, что без ингредиентов возвращается 400 и сообщение об ошибке",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создать пользователя: test_47e1583e@yandex.ru",
+      "time" : {
+        "start" : 1790435627067,
+        "stop" : 1790435627245,
+        "duration" : 178
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=test_47e1583e@yandex.ru, password=password47e1583e, name=User_47e1583e)"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Создать заказ с авторизацией",
+      "time" : {
+        "start" : 1790435627259,
+        "stop" : 1790435627350,
+        "duration" : 91
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "order",
+        "value" : "Order(ingredients=[], name=null, success=false, order=null)"
+      }, {
+        "name" : "accessToken",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYjdlMTQzOTg0MjcwMDAxYmVkOWU3MCIsImlhdCI6MTc5MDQzNTY1MSwiZXhwIjoxNzkwNDM2ODUxfQ.3rta2w0aIonYTvkrRH0Jz6P5c4Tkx4nQg1gcO7NbzyM"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Удалить пользователя по токену",
+      "time" : {
+        "start" : 1790435627370,
+        "stop" : 1790435628328,
+        "duration" : 958
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "accessToken",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYjdlMTQzOTg0MjcwMDAxYmVkOWU3MCIsImlhdCI6MTc5MDQzNTY1MSwiZXhwIjoxNzkwNDM2ODUxfQ.3rta2w0aIonYTvkrRH0Jz6P5c4Tkx4nQg1gcO7NbzyM"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.yandex.practicum.tests"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.yandex.practicum.tests.OrderCreateTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createOrderWithoutIngredientsTest"
+  }, {
+    "name" : "suite",
+    "value" : "ru.yandex.practicum.tests.OrderCreateTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-N8LGFHC"
+  }, {
+    "name" : "thread",
+    "value" : "22028@DESKTOP-N8LGFHC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "372463e58f43fdc4.json",
+  "parameterValues" : [ ]
+}

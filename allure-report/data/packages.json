@@ -1,0 +1,178 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "ru.yandex.practicum.tests",
+    "children" : [ {
+      "name" : "createOrderWithAuthTest",
+      "uid" : "f2425314ba462fbb",
+      "parentUid" : "95eb3c693042c65dcd828792e514e88d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1790435612109,
+        "stop" : 1790435620022,
+        "duration" : 7913
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "createOrderWithInvalidHashTest",
+      "uid" : "d3916981edf3f891",
+      "parentUid" : "95eb3c693042c65dcd828792e514e88d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1790435620077,
+        "stop" : 1790435621155,
+        "duration" : 1078
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "createOrderWithIngredientsTest",
+      "uid" : "6dadaa8c07f1f34",
+      "parentUid" : "95eb3c693042c65dcd828792e514e88d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1790435621161,
+        "stop" : 1790435626002,
+        "duration" : 4841
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "createOrderWithoutAuthTest",
+      "uid" : "18f4a3161480cefc",
+      "parentUid" : "95eb3c693042c65dcd828792e514e88d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1790435626004,
+        "stop" : 1790435627062,
+        "duration" : 1058
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "createOrderWithoutIngredientsTest",
+      "uid" : "372463e58f43fdc4",
+      "parentUid" : "95eb3c693042c65dcd828792e514e88d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1790435627067,
+        "stop" : 1790435628329,
+        "duration" : 1262
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "createDuplicateUserTest",
+      "uid" : "234da088a488b55",
+      "parentUid" : "95eb3c693042c65dcd828792e514e88d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1790435628336,
+        "stop" : 1790435629413,
+        "duration" : 1077
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "createUserWithoutEmailTest",
+      "uid" : "f61d2e0202028448",
+      "parentUid" : "95eb3c693042c65dcd828792e514e88d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1790435629417,
+        "stop" : 1790435629537,
+        "duration" : 120
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "createUserWithoutNameTest",
+      "uid" : "7bdcb29d71755328",
+      "parentUid" : "95eb3c693042c65dcd828792e514e88d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1790435629538,
+        "stop" : 1790435629645,
+        "duration" : 107
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "createUserWithoutPasswordTest",
+      "uid" : "409f7d87e28cca44",
+      "parentUid" : "95eb3c693042c65dcd828792e514e88d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1790435629647,
+        "stop" : 1790435629764,
+        "duration" : 117
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "createUniqueUserTest",
+      "uid" : "88c36e3255915359",
+      "parentUid" : "95eb3c693042c65dcd828792e514e88d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1790435629766,
+        "stop" : 1790435630733,
+        "duration" : 967
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "loginExistingUserTest",
+      "uid" : "59d37832981561fc",
+      "parentUid" : "95eb3c693042c65dcd828792e514e88d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1790435630740,
+        "stop" : 1790435631912,
+        "duration" : 1172
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "loginWithWrongPasswordTest",
+      "uid" : "249289cfa90a1a03",
+      "parentUid" : "95eb3c693042c65dcd828792e514e88d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1790435631916,
+        "stop" : 1790435633057,
+        "duration" : 1141
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "loginWithWrongEmailTest",
+      "uid" : "be0d7dffd0095282",
+      "parentUid" : "95eb3c693042c65dcd828792e514e88d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1790435633060,
+        "stop" : 1790435634127,
+        "duration" : 1067
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ru.yandex.practicum.tests"
+  } ]
+}

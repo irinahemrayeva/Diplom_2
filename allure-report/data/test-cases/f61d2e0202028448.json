@@ -1,0 +1,87 @@
+{
+  "uid" : "f61d2e0202028448",
+  "name" : "Создание пользователя без поля email",
+  "fullName" : "ru.yandex.practicum.tests.UserCreateTest.createUserWithoutEmailTest",
+  "historyId" : "afd449fd0bca93e96a2ff5e797107b5d",
+  "time" : {
+    "start" : 1790435629417,
+    "stop" : 1790435629537,
+    "duration" : 120
+  },
+  "description" : "Проверяем, что без email регистрация возвращает 403",
+  "descriptionHtml" : "<p>Проверяем, что без email регистрация возвращает 403</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверяем, что без email регистрация возвращает 403",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создать пользователя: null",
+      "time" : {
+        "start" : 1790435629417,
+        "stop" : 1790435629515,
+        "duration" : 98
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=null, password=password5f11d208, name=User_5f11d208)"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.yandex.practicum.tests"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.yandex.practicum.tests.UserCreateTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createUserWithoutEmailTest"
+  }, {
+    "name" : "suite",
+    "value" : "ru.yandex.practicum.tests.UserCreateTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-N8LGFHC"
+  }, {
+    "name" : "thread",
+    "value" : "22028@DESKTOP-N8LGFHC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f61d2e0202028448.json",
+  "parameterValues" : [ ]
+}

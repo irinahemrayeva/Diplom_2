@@ -1,0 +1,186 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "ru.yandex.practicum.tests.OrderCreateTest",
+    "children" : [ {
+      "name" : "Создание заказа с авторизацией",
+      "uid" : "f2425314ba462fbb",
+      "parentUid" : "0ca35f6759668337ecccea6a97b18d41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1790435612109,
+        "stop" : 1790435620022,
+        "duration" : 7913
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Создание заказа с неверным хешем ингредиентов",
+      "uid" : "d3916981edf3f891",
+      "parentUid" : "0ca35f6759668337ecccea6a97b18d41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1790435620077,
+        "stop" : 1790435621155,
+        "duration" : 1078
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Создание заказа с ингредиентами",
+      "uid" : "6dadaa8c07f1f34",
+      "parentUid" : "0ca35f6759668337ecccea6a97b18d41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1790435621161,
+        "stop" : 1790435626002,
+        "duration" : 4841
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Создание заказа без авторизации",
+      "uid" : "18f4a3161480cefc",
+      "parentUid" : "0ca35f6759668337ecccea6a97b18d41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1790435626004,
+        "stop" : 1790435627062,
+        "duration" : 1058
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Создание заказа без ингредиентов",
+      "uid" : "372463e58f43fdc4",
+      "parentUid" : "0ca35f6759668337ecccea6a97b18d41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1790435627067,
+        "stop" : 1790435628329,
+        "duration" : 1262
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "0ca35f6759668337ecccea6a97b18d41"
+  }, {
+    "name" : "ru.yandex.practicum.tests.UserCreateTest",
+    "children" : [ {
+      "name" : "Создание уже зарегистрированного пользователя",
+      "uid" : "234da088a488b55",
+      "parentUid" : "175bc06238a84b1cee93273e3c3b5581",
+      "status" : "passed",
+      "time" : {
+        "start" : 1790435628336,
+        "stop" : 1790435629413,
+        "duration" : 1077
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Создание пользователя без поля email",
+      "uid" : "f61d2e0202028448",
+      "parentUid" : "175bc06238a84b1cee93273e3c3b5581",
+      "status" : "passed",
+      "time" : {
+        "start" : 1790435629417,
+        "stop" : 1790435629537,
+        "duration" : 120
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Создание пользователя без поля name",
+      "uid" : "7bdcb29d71755328",
+      "parentUid" : "175bc06238a84b1cee93273e3c3b5581",
+      "status" : "passed",
+      "time" : {
+        "start" : 1790435629538,
+        "stop" : 1790435629645,
+        "duration" : 107
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Создание пользователя без поля password",
+      "uid" : "409f7d87e28cca44",
+      "parentUid" : "175bc06238a84b1cee93273e3c3b5581",
+      "status" : "passed",
+      "time" : {
+        "start" : 1790435629647,
+        "stop" : 1790435629764,
+        "duration" : 117
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Создание уникального пользователя",
+      "uid" : "88c36e3255915359",
+      "parentUid" : "175bc06238a84b1cee93273e3c3b5581",
+      "status" : "passed",
+      "time" : {
+        "start" : 1790435629766,
+        "stop" : 1790435630733,
+        "duration" : 967
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "175bc06238a84b1cee93273e3c3b5581"
+  }, {
+    "name" : "ru.yandex.practicum.tests.UserLoginTest",
+    "children" : [ {
+      "name" : "Вход под существующим пользователем",
+      "uid" : "59d37832981561fc",
+      "parentUid" : "0c854772a1cfe1d76d15cea0209de0fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1790435630740,
+        "stop" : 1790435631912,
+        "duration" : 1172
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Вход с неверным паролем",
+      "uid" : "249289cfa90a1a03",
+      "parentUid" : "0c854772a1cfe1d76d15cea0209de0fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1790435631916,
+        "stop" : 1790435633057,
+        "duration" : 1141
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Вход с неверным логином",
+      "uid" : "be0d7dffd0095282",
+      "parentUid" : "0c854772a1cfe1d76d15cea0209de0fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1790435633060,
+        "stop" : 1790435634127,
+        "duration" : 1067
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "0c854772a1cfe1d76d15cea0209de0fe"
+  } ]
+}
